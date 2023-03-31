@@ -2,7 +2,7 @@
 package postnet;
 
 /**
- * Definimos tarjetaDeCredito con sus atributos
+ * clase TarjetaDeCredito
  * @author 1dam
  */
 class TarjetaDeCredito {

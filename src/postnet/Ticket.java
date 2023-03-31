@@ -1,21 +1,25 @@
 
 package postnet;
+
 /**
- * Definimos ticket con sus atributos
+ * clase ticket
  * @author 1dam
  */
+
+
 class Ticket {
   
     private String nombreApellido;
     private double montoTotal;
     private double montoPorCuota;
     
-/** 
- * constructor ticket
- * @param nombreApellido
- * @param montoTotal
- * @param montoPorCuota 
- */
+
+    /**
+     * constructor ticket
+     * @param nombreApellido
+     * @param montoTotal
+     * @param montoPorCuota 
+     */
     public Ticket(String nombreApellido, double montoTotal, double montoPorCuota) {
         this.nombreApellido = nombreApellido;
         this.montoTotal = montoTotal;

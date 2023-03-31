@@ -1,9 +1,8 @@
 package postnet;
 
 /**
- * Esta es la clase Persona
- * Define atributos dni, nombre, apellido, telefono y mail
- * @author 1dam 
+ * clase persona
+ * @author 1dam
  */
 
 class Persona {
@@ -14,7 +13,7 @@ class Persona {
     private String mail;
     
  /**
-  * constructor persona...
+  * constructor persona
   * @param dni
   * @param nombre
   * @param apellido
@@ -70,6 +69,11 @@ class Persona {
     public void setMail(String mail) {
         this.mail = mail;
     }
+    
+    /**
+     * devulve el nombre y el apellido concatenado y separado por espacio
+     * @return 
+     */
 
     public String nombreCompleto(){
     return nombre+" "+apellido;

@@ -4,14 +4,8 @@
  */
 package postnet;
 
-/**
- *
- * @author 1dam
- */
 public enum EntidadFinanciera {
     BIRZA, CASTERMARD;
-
-    //----------------------------    
 
     public static EntidadFinanciera getBIRZA() {
         return BIRZA;
@@ -21,7 +15,7 @@ public enum EntidadFinanciera {
         return CASTERMARD;
     }
     
-        //----------------------------    
+         
     
     
 

@@ -7,11 +7,10 @@ package postnet;
  */
 public class Principal {
     /**
-     * Este es el metodo principal
-     * @param args the command line arguments
+     * Metodo principal
+     * @param args 
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         Posnet posnet=new Posnet();
         Persona titular=new Persona("45176494D","daniel","Perez","638767176","nfnfbf@hotmail.com");

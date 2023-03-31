@@ -1,9 +1,9 @@
 
 package postnet;
 
-/** 
- *Clase Posnet
- * @author 1dam   
+/**
+ * clase posnet
+ * @author 1dam
  */
  
 public class Posnet {
@@ -12,14 +12,17 @@ public class Posnet {
     public static int MIN_CANT_CUOTAS=1;
     public static int MAX_CANT_CUOTAS=6;
     
- /**
-  * 
-  * @param tarjeta
-  * @param montoAbonar
-  * @param cantCuotas
-  * @return 
-  */
+ 
     
+    /**
+     * Comprueba que los datos de la cuenta sean validos,  
+     * que se pueda efectuar el pago, cambia el valor del monto final 
+     * y genera el ticket.
+     * @param tarjeta
+     * @param montoAbonar
+     * @param cantCuotas
+     * @return ticket 
+     */
     public Ticket efectuarPago(TarjetaDeCredito tarjeta,double montoAbonar, int cantCuotas){
         Ticket ticket=null;
 
@@ -48,7 +51,6 @@ public class Posnet {
           
     }
 
-    //---------------------------
 
     public static double getRECARGO_POR_CUOTA() {
         return RECARGO_POR_CUOTA;
@@ -62,7 +64,7 @@ public class Posnet {
         return MAX_CANT_CUOTAS;
     }
     
-    //----------------------------    
+     
     
     public static void setMIN_CANT_CUOTAS(int MIN_CANT_CUOTAS) {
         Posnet.MIN_CANT_CUOTAS = MIN_CANT_CUOTAS;
